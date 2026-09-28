@@ -1,15 +1,11 @@
 
 # Fashion-MNIST ANN Pipeline
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 hotfix branch testing changes
-=======
 Initial Git setup completed
->>>>>>> cca622c (edited README file to check and test diff variants)
-=======
 Making Changes here to check diff command.
->>>>>>> 2e8017a (updated readme)
+Again making changes here to test stash etc 
+
 
 ## Project Overview
 
