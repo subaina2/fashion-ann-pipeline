@@ -1,1 +1,1 @@
-# MLOPs_A2
+# fashion-ann-pipeline
