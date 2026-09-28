@@ -1,11 +1,14 @@
 
 # Fashion-MNIST ANN Pipeline
 
+hotfix branch testing changes
+
 ## Project Overview
 
 This project classifies Fashion-MNIST clothing images
 into 10 categories using a fully connected Artificial
-Neural Network (ANN).
+Neural Network (ANN)
+
 
 ## Dataset
 
