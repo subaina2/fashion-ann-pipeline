@@ -18,6 +18,9 @@ def main():
     x_train = train["x"].astype("float32") / 255.0
     x_test = test["x"].astype("float32") / 255.0
 
+    x_train = (x_train - 0.5) / 0.5
+    x_test = (x_test - 0.5) / 0.5
+
     x_tr, x_val, y_tr, y_val = train_test_split(
         x_train, train["y"],
         test_size=params["test_size"],
