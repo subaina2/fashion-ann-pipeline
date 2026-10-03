@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 RAW_DIR, OUT_DIR = "data/raw", "data/processed"
 
 def main():
-    with open("paramms.yaml") as f:
+    with open("params.yaml") as f:
         params = yaml.safe_load(f)["preprocess"]
     os.makedirs(OUT_DIR, exist_ok=True)
     train = np.load(f"{RAW_DIR}/train.npz")
