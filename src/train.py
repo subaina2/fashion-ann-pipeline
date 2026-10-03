@@ -10,7 +10,7 @@ from tensorflow import keras
 DATA_DIR, MODEL_DIR = "data/processed", "models"
 
 def main():
-    with open("params.yaml") as f:
+    with open("paramms.yaml") as f:
         p = yaml.safe_load(f)["train"]
     tf.keras.utils.set_random_seed(p.get("seed", 42))
     os.makedirs(MODEL_DIR, exist_ok=True)

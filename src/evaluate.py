@@ -1,5 +1,7 @@
 # evaluates trained model on test data, saves a confusion matrix plot to 'reports/', and logs metrics to 'metrics.json'import json, os
 
+import json
+import os
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
